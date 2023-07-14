@@ -70,7 +70,7 @@ function draw() {
       // score=+2;
       // score=2;
       score=score+2;
-
+      knifeSwooshSound.play()
     }
     else
     {
@@ -90,7 +90,7 @@ function draw() {
         knife.scale=2;
         knife.x=300;
         knife.y=300;
-        knifeSwooshSound.play()
+       gameOverSound.play ()
       }
     }
   }
